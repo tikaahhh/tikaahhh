@@ -1,4 +1,4 @@
-# HOW TO ESTABLISH SOCKET ON THE SERVER SIDE IN C
+# HOW TO ESTABLISH SOCKET ON THE SERVER SIDE 
 
 ## What is the Client-Server Model?
   Most interprocess communication relies on the client-server model, which involves two processes communicating with each other. In this model, the client process connects to the server process, typically to request information. A useful analogy is a person calling another person on the phone.
