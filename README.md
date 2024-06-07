@@ -11,7 +11,7 @@ It's important to note that the client must be aware of the server's existence a
 ### Type Of Socket
 
 * **Datagram Sockets**
-  Datagram sockets enable processes to utilize the User Datagram Protocol (UDP) for communication. This involves a two-way flow of messages, where messages may be received in a different order than they were sent and duplicates might occur. Datagram sockets maintain their message boundaries and are designated by the socket type SOCK_DGRAM. Nonetheless, datagram sockets lack reliability, implying that if a packet of information is lost within the Internet, the sender remains uninformed.
+  Datagram sockets enable processes to utilize the User Datagram Protocol (UDP) for communication. This involves a two-way flow of messages, where messages may be received in a different order than they were sent and duplicates might occur. Datagram sockets maintain their message boundaries and are designated by the socket type SOCK_DGRAM. 
   
 * **Stream Sockets**
   A stream socket enables processes to utilize the Transfer Control Protocol (TCP) for communication. It facilitates a sequenced, reliable, and bidirectional flow of data. Once a connection is established, data can be both read from and written to these sockets as a byte stream. Stream sockets are denoted by the socket type SOCK_STREAM.
